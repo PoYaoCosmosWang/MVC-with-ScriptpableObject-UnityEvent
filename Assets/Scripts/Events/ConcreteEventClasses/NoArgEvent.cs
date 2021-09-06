@@ -4,16 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [CreateAssetMenu(menuName ="ScriptableObject Events/NoArgumentEvent")]
-public class NoArgEvent : ScriptableObject
+public class NoArgEvent : ScriptableObjectEvent
 {
-
-    public UnityAction gameEvent;
-    
-    public void Invoke()
-    {
-
-        gameEvent.Invoke();
-        
-    }
     
 }

@@ -14,8 +14,6 @@ public class IntEventEditor : Editor
 
         IntEvent e = target as IntEvent;
         if (GUILayout.Button("Invoke"))
-            e.Invoke(e.integer);
-        //if (GUILayout.Button("Log"))
-        //   e.Log();
+            e.Invoke(e.argument);
     }
 }

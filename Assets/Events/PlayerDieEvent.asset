@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a7da357d3d2b148b8572394ba8c25c, type: 3}
   m_Name: PlayerDieEvent
   m_EditorClassIdentifier: 
-  integer: 56
+  argument: 2

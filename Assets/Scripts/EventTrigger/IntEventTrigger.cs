@@ -8,11 +8,7 @@ public class IntEventTrigger : MonoBehaviour
     private int id;
     [SerializeField]
     private IntEvent playerDieEvent;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
