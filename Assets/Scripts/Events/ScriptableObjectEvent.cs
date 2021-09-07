@@ -13,7 +13,7 @@ public class ScriptableObjectEvent : ScriptableObject
 
     public void Invoke()
     {
-        gameEvent.Invoke();
+        gameEvent?.Invoke();
     }
 
 }
@@ -29,7 +29,7 @@ public class ScriptableObjectEvent<T> : ScriptableObject
     public void Invoke(T argument)
     {
         this.argument = argument;
-        gameEvent.Invoke(argument);
+        gameEvent?.Invoke(argument);
     }
 
 }
@@ -47,7 +47,7 @@ public class ScriptableObjectEvent<T,U> : ScriptableObject
     {
         this.argument1 = argument1;
         this.argument2 = argument2;
-        gameEvent.Invoke(argument1, argument2);
+        gameEvent?.Invoke(argument1, argument2);
     }
 
 }
