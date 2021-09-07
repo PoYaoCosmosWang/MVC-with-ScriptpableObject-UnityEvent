@@ -7,5 +7,3 @@ To handle this, I refer to ScriptableObject with events in this video:https://ww
 After using ScriptableObject, we can manage our events in the folders, making it more accessible.  
 What's more, the eventBus can be removed from the original design.  
 EventHandlers can listen to the events in folders by themselves.  
-  
-In the future, maybe I can build a template version for this kind of event.   
